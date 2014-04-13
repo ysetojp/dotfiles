@@ -1,0 +1,55 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:w
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	ln -s ~/dotfiles/.vimwinpos ~/.vimwinpos
+"1	LINE	0
+	ln -s ~/dotfiles/.gvimrc ~/.gvimrc
+"2	LINE	0
+	ln -s ~/dotfiles/.vim ~/.vim
+	ln -s ~/dotfiles/.vimwinpos ~/.vimwinpos
+""-	CHAR	0
+	winpos
+
+# ファイルマーク:
+'0  4  27  ~/dotfiles/dotfilesLink.sh
+'1  9  20  ~/dotfiles/dotfilesLink.sh
+
+# ジャンプリスト (新しいものが先):
+-'  4  27  ~/dotfiles/dotfilesLink.sh
+-'  1  0  ~/dotfiles/dotfilesLink.sh
+-'  9  20  ~/dotfiles/dotfilesLink.sh
+-'  8  20  ~/dotfiles/dotfilesLink.sh
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/dotfiles/dotfilesLink.sh
+	"	4	27
+	^	6	36
+	.	6	32
+	+	9	0
+	+	9	0
+	+	4	0
+	+	3	28
+	+	7	0
+	+	8	0
+	+	6	32

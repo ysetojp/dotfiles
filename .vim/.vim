@@ -1,0 +1,1 @@
+/home/yseto/dotfiles/.vim
