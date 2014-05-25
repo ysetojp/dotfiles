@@ -1,7 +1,7 @@
+set nocompatible
 set guifont=Ricty\ 12
-colorscheme molokai
-set hlsearch
 set showcmd
+set hidden
 set number
 set ruler
 set cmdheight=2
@@ -13,10 +13,22 @@ set cindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
 set background=dark
+set timeoutlen=2000
+
+set backupdir=$HOME/.vim/backup
+set directory=$HOME/.vim/swap
 
 " NeoBundle settings "
+
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#enable_ignore_case = 1
+let g:neocomplete#enable_smart_case = 1
+let g:neocomplete#auto_completion_start_length = 3
+
+let g:unite_enable_start_insert = 1
+let g:unite_enable_split_vertically = 0
+let g:unite_winwidth = 40
 
 filetype off
 filetype plugin indent off
@@ -27,12 +39,15 @@ if has('vim_starting')
 endif
 
 NeoBundle 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neocomplcache.vim'
+NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+"NeoBundle 'honza/snipmate-snippets'
+"NeoBundle 'honza/vim-snippets'
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler.vim'
-NeoBundle 'Shougo/vimshell.vim'
-NeoBundle 'Shougo/vimproc.vim', {
+NeoBundle 'Shougo/vimfiler'
+NeoBundle 'Shougo/vimshell'
+NeoBundle 'Shougo/vimproc', {
   \ 'build': {
   \ 'windows': 'make -f make_mingw32.mak',
   \ 'cygwin': 'make -f make_cygwin.mak',
@@ -42,17 +57,20 @@ NeoBundle 'Shougo/vimproc.vim', {
   \}
 
 NeoBundle 'scrooloose/syntastic'
-"NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'thinca/vim-ref'
 NeoBundle 'The-NERD-tree'
 NeoBundle 'Gist.vim'
+NeoBundle 'slim-template/vim-slim'
 
 NeoBundleLazy 'alpaca-tc/vim-endwise.git', {
   \ 'autoload' : {
   \ 'insert' : 1,
   \ }}
 
+NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-rails', { 'autoload' : {
-  \ 'filetypes' : ['haml', 'ruby', 'eruby'] }}
+  \ 'filetypes' : ['slim', 'haml', 'ruby', 'eruby'] }}
 
 NeoBundleLazy 'basyura/unite-rails', {
   \ 'depends' : 'Shougo/unite.vim',
@@ -67,13 +85,140 @@ NeoBundleLazy 'basyura/unite-rails', {
   \ ]
   \ }}
 
+NeoBundle 'skwp/vim-rspec'
+NeoBundle 'tpope/vim-dispatch'
+NeoBundle 'AndrewRadev/switch.vim'
+NeoBundle 'h1mesuke/vim-alignta'
+NeoBundle 'tyru/open-browser.vim'
+
 filetype plugin on
 filetype indent on
+syntax enable
 
 NeoBundleCheck
 
-"autocmd vimenter * NERDTree
-
 " End of NedBundle settings "
 
-noremap <CR> o<ESC>
+" Plugin key-mappings.
+imap <C-k>  <Plug>(neosnippet_expand_or_jump)
+smap <C-k>  <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>  <Plug>(neosnippet_expand_target)
+
+" SuperTab like snippets behavior.
+imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)"
+\: pumvisible() ? "\<C-n>" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)"
+\: "\<TAB>"
+
+" For snippet_complete marker.
+if has('conceal')
+  set conceallevel=2 concealcursor=i
+endif
+
+let g:quickrun_config = {'*': {'split': ''}}
+set splitbelow
+
+let g:quickrun_config['ruby.rspec'] = {'command': 'spec'}
+"let g:neosnippet#disable_runtime_snippets = {
+"      \ '_' : 1,
+"      \ }
+"
+"let g:neosnippet#enable_snipmate_compatibility = 1
+let g:neosnippet#snippets_directory = '~/.vim/bundle/neosnippet-snippets/snippets'
+
+" Key mappings "
+
+" Some useful key mappings
+nnoremap <CR> o<ESC>
+nnoremap <F5> :Source ~/.vimrc<CR>
+let mapleader="," 
+noremap \ ,
+
+" Open browser key mappings
+let g:netrw_nogx = 1
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+
+" Emacs like key mappings :-)
+inoremap <C-f> <Right>
+inoremap <C-b> <Left>
+
+" Esc key mappings
+vnoremap <silent> <C-l> <Esc>
+inoremap <silent> <C-l> <Esc>
+cnoremap <silent> <C-l> <C-c>
+
+noremap <silent> <Space>n :NERDTree<CR>
+
+nnoremap [space] <Nop>
+nmap <Space> [space]
+
+" Align
+nmap [space]a :Alignta
+
+" Unite key mappings
+nnoremap [unite] <Nop>
+nmap [space]u [unite]
+nnoremap <silent> [unite]c   :<C-u>UniteWithCurrentDir -buffer-name=files file_mru bookmark file<CR>
+nnoremap <silent> [unite]b   :<C-u>Unite buffer<CR>
+nnoremap <silent> [unite]f   :<C-u>Unite file<CR>
+nnoremap <silent> [unite]m   :<C-u>Unite file_mru<CR>
+nnoremap <silent> [unite]rc  :<C-u>Unite file_rec/async:app/controllers/ <CR>
+nnoremap <silent> [unite]rfc :<C-u>Unite file file/new -input=app/controllers/ <CR>
+nnoremap <silent> [unite]rm  :<C-u>Unite file_rec/async:app/models/ <CR>
+nnoremap <silent> [unite]rfm :<C-u>Unite file file/new -input=app/models/ <CR>
+nnoremap <silent> [unite]rv  :<C-u>Unite file_rec/async:app/views/ <CR>
+nnoremap <silent> [unite]rfv :<C-u>Unite file file/new -input=app/views/ <CR>
+nnoremap <silent> [unite]rs  :<C-u>Unite file_rec/async:app/assets/stylesheets/ <CR>
+nnoremap <silent> [unite]rfs :<C-u>Unite file file/new -input=app/assets/stylesheets/ <CR>
+nnoremap <silent> [unite]rj  :<C-u>Unite file_rec/async:app/assets/javascripts/ <CR>
+nnoremap <silent> [unite]rfj :<C-u>Unite file file/new -input=app/assets/javascripts/ <CR>
+nnoremap <silent> [unite]ro  :<C-u>Unite file_rec/async:config/ <CR>
+nnoremap <silent> [unite]rfo :<C-u>Unite file file/new -input=config/ <CR>
+nnoremap <silent> [unite]rl  :<C-u>Unite file_rec/async:lib/ <CR>
+nnoremap <silent> [unite]rfl :<C-u>Unite file file/new -input=lib/ <CR>
+nnoremap <silent> [unite]rr  :<C-u>Unite file_rec/async:spec/ <CR>
+nnoremap <silent> [unite]rfr :<C-u>Unite file file/new -input=specs <CR>
+
+" Tab key mappings
+nnoremap [tab] <Nop>
+nmap [space]t [tab]
+nnoremap [tab]n :tabnew<CR>
+nnoremap [tab]c :tabclose<CR>
+nnoremap [tab]fc :tabclose!<CR>
+nnoremap [tab]l gt
+nnoremap [tab]h gT
+
+" Window key mappings
+nnoremap [window] <Nop>
+nmap [space]w [window]
+nnoremap <silent> [window]s <C-w>s
+nnoremap <silent> [window]v <C-w>v
+nnoremap <silent> [window]o <C-w>o
+nnoremap <silent> [window]h <C-w>h
+nnoremap <silent> [window]l <C-w>l
+nnoremap <silent> [window]k <C-w>k
+nnoremap <silent> [window]j <C-w>j
+
+" Buffer key mappings
+nnoremap [buffer] <Nop>
+nmap [space]b [buffer]
+nnoremap <silent> [buffer]f :bf<CR>
+nnoremap <silent> [buffer]l :bl<CR>
+nnoremap <silent> [buffer]n :bn<CR>
+nnoremap <silent> [buffer]p :bp<CR>
+nnoremap <silent> [buffer]d :bd<CR>
+
+" Edit key mappings
+nnoremap [edit] <Nop>
+nmap [space]e [edit]
+nnoremap <silent> [edit]v :e ~/.vimrc<CR>
+nnoremap <silent> [edit]g :e ~/.gvimrc<CR>
+
+nnoremap [directory] <Nop>
+nmap [space]d [directory]
+nnoremap <silent> [directory]cf :cd %:h<CR>
+nnoremap <silent> [directory]gr :cd ~/workspace/rails_projects/
+
