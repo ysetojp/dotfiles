@@ -18,6 +18,8 @@ gem_group :development, :test do
   gem 'hirb'
   gem 'hirb-unicode'
 
+  gem 'better_errors'
+  gem 'binding_of_caller'
 #  gem 'capybara'
 end
 
