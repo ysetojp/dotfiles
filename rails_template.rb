@@ -36,7 +36,7 @@ GENERATORS
 run 'bundle install'
 
 remove_file './app/views/layouts/application.html.erb'
-get 'https://gist.githubusercontent.com/ysetojp/5940a31e177b73673e83/raw/8594a2c150648403dc67bba0abc66f00932c6327/application.html.slim', './app/views/layouts/application.html.slim'
+get 'https://gist.githubusercontent.com/ysetojp/5940a31e177b73673e83/raw/efe7bda3593a08950cc0a958a976a9e6543bec49/application.html.slim', './app/views/layouts/application.html.slim'
 
 generate 'rspec:install'
 

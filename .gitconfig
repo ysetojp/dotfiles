@@ -3,3 +3,5 @@
 	email = ysscmer@gmail.com
 [alias]
 	co = checkout
+[push]
+	default = current

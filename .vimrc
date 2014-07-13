@@ -1,5 +1,5 @@
 set nocompatible
-set guifont=Ricty\ 12
+set guifont=Ricty:h17
 set showcmd
 set hidden
 set number
@@ -222,3 +222,4 @@ nmap [space]d [directory]
 nnoremap <silent> [directory]cf :cd %:h<CR>
 nnoremap <silent> [directory]gr :cd ~/workspace/rails_projects/
 
+nnoremap <silent> [space]q :QuickRun<CR>
