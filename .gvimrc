@@ -1,3 +1,4 @@
+set guifont=Ricty\ 13
 colorscheme wombat
 " save window position "
 let g:save_window_file = expand('~/.vimwinpos')
@@ -19,3 +20,11 @@ if filereadable(g:save_window_file)
 endif
 " End of save window position "
 
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'component': {
+      \   'readonly': '%{&readonly?"x":""}',
+      \ },
+      \ 'separator': { 'left': "\u2b80", 'right': "\u2b82" },
+      \ 'subseparator': { 'left': "\u2b81", 'right': "\u2b83" }
+      \ }

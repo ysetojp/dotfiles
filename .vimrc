@@ -1,10 +1,12 @@
+scriptencoding utf-8
+set encoding=utf-8
 set nocompatible
-set guifont=Ricty:h17
 set showcmd
 set hidden
 set number
 set ruler
 set cmdheight=2
+set laststatus=2
 filetype on
 filetype indent on
 filetype plugin on
@@ -35,7 +37,9 @@ filetype plugin indent off
 
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim
-  call neobundle#rc(expand('~/.vim/bundle/'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
+  NeoBundleFetch 'Shougo/neobundle.vim'
+  call neobundle#end()
 endif
 
 NeoBundle 'Shougo/neobundle.vim'
@@ -90,6 +94,16 @@ NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'AndrewRadev/switch.vim'
 NeoBundle 'h1mesuke/vim-alignta'
 NeoBundle 'tyru/open-browser.vim'
+NeoBundle 'itchyny/lightline.vim'
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'component': {
+      \   'readonly': '%{&readonly?"x":""}',
+      \ },
+      \ 'separator': { 'left': "\u2b80", 'right': "\u2b82" },
+      \ 'subseparator': { 'left': "\u2b81", 'right': "\u2b83" }
+      \ }
 
 filetype plugin on
 filetype indent on
@@ -133,6 +147,7 @@ let g:neosnippet#snippets_directory = '~/.vim/bundle/neosnippet-snippets/snippet
 " Some useful key mappings
 nnoremap <CR> o<ESC>
 nnoremap <F5> :Source ~/.vimrc<CR>
+nnoremap <F6> :Source ~/.gvimrc<CR>
 let mapleader="," 
 noremap \ ,
 
