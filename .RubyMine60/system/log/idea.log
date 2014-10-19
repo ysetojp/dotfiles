@@ -1,0 +1,945 @@
+2014-10-12 09:19:49,610 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 09:19:49,617 [      7]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 09:19:49,617 [      7]   INFO -        #com.intellij.idea.Main - OS: Linux (3.8.0-25-generic, amd64) 
+2014-10-12 09:19:49,617 [      7]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_25-b30 (Oracle Corporation) 
+2014-10-12 09:19:49,617 [      7]   INFO -        #com.intellij.idea.Main - JVM: 23.7-b01 (OpenJDK 64-Bit Server VM) 
+2014-10-12 09:19:49,621 [     11]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/home/yseto/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/home/yseto/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 09:19:49,643 [     33]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 22 ms 
+2014-10-12 09:19:49,656 [     46]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 13 ms 
+2014-10-12 09:20:53,538 [  63928]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 09:20:53,977 [  64367]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 09:20:53,992 [  64382]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 09:20:54,032 [  64422]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 09:20:54,414 [  64804]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 825 ms 
+2014-10-12 09:20:54,415 [  64805]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 09:20:54,792 [  65182]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2014-10-12 09:20:54,795 [  65185]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 09:20:54,827 [  65217]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/yseto/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 09:20:54,834 [  65224]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 09:20:54,870 [  65260]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2014-10-12 09:20:54,884 [  65274]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2014-10-12 09:20:54,922 [  65312]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2014-10-12 09:20:55,557 [  65947]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2014-10-12 09:20:55,557 [  65947]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2014-10-12 09:20:55,577 [  65967]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 09:20:55,579 [  65969]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2014-10-12 09:20:55,580 [  65970]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2014-10-12 09:20:55,599 [  65989]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 09:20:55,604 [  65994]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2014-10-12 09:20:55,605 [  65995]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2014-10-12 09:20:55,822 [  66212]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2014-10-12 09:20:55,903 [  66293]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/abbreviations.xml file is null 
+2014-10-12 09:20:55,945 [  66335]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 09:20:55,964 [  66354]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2014-10-12 09:20:55,981 [  66371]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2014-10-12 09:20:55,984 [  66374]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 09:20:55,995 [  66385]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 09:21:00,026 [  70416]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2014-10-12 09:21:00,078 [  70468]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/yseto/bin/RubyMine-6.3.3/lib/rubymine.jar!/resources/html5-schema/html5.rnc 
+2014-10-12 09:21:00,078 [  70468]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/yseto/bin/RubyMine-6.3.3/lib/rubymine.jar!/resources/html5-schema/xhtml5.rnc 
+2014-10-12 09:21:00,078 [  70468]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /home/yseto/bin/RubyMine-6.3.3/lib/rubymine.jar!/resources/html5-schema/html5chars.ent 
+2014-10-12 09:21:00,265 [  70655]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2014-10-12 09:21:00,267 [  70657]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2014-10-12 09:21:00,300 [  70690]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 209 ms 
+2014-10-12 09:21:00,300 [  70690]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 09:21:00,307 [  70697]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2014-10-12 09:21:00,308 [  70698]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/gemmanager.xml file is null 
+2014-10-12 09:21:00,325 [  70715]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 09:21:00,361 [  70751]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 09:21:00,364 [  70754]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index Stubs 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:65)
+	at org.jetbrains.plugins.ruby.settings.RubyMineSettingsInitializer.<init>(RubyMineSettingsInitializer.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.picocontainer.defaults.InstantiatingComponentAdapter.newInstance(InstantiatingComponentAdapter.java:193)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter$1.run(ConstructorInjectionComponentAdapter.java:220)
+	at org.picocontainer.defaults.ThreadLocalCyclicDependencyGuard.observe(ThreadLocalCyclicDependencyGuard.java:53)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter.getComponentInstance(ConstructorInjectionComponentAdapter.java:248)
+	at org.picocontainer.defaults.DecoratingComponentAdapter.getComponentInstance(DecoratingComponentAdapter.java:60)
+	at org.picocontainer.defaults.CachingComponentAdapter.getComponentInstance(CachingComponentAdapter.java:58)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter$1.getComponentInstance(ComponentManagerImpl.java:530)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:590)
+	at com.intellij.util.pico.DefaultPicoContainer.getLocalInstance(DefaultPicoContainer.java:225)
+	at com.intellij.util.pico.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:212)
+	at com.intellij.util.pico.DefaultPicoContainer.getComponentInstance(DefaultPicoContainer.java:199)
+	at org.picocontainer.alternatives.AbstractDelegatingMutablePicoContainer.getComponentInstance(AbstractDelegatingMutablePicoContainer.java:75)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponent(ComponentManagerImpl.java:121)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponent(ApplicationImpl.java:371)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.a(ComponentManagerImpl.java:112)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:89)
+	at com.intellij.openapi.components.impl.stores.ApplicationStoreImpl.load(ApplicationStoreImpl.java:87)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:508)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:151)
+	at com.intellij.idea.MainImpl$1$1$1.run(MainImpl.java:58)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-10-12 09:21:00,370 [  70760]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 09:21:00,416 [  70806]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 09:21:00,418 [  70808]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 5982 ms 
+2014-10-12 09:21:00,420 [  70810]   INFO - .intellij.idea.IdeaApplication - App initialization took 89839 ms 
+2014-10-12 09:21:01,516 [  71906]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2014-10-12 09:21:55,079 [ 125469]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 09:21:55,080 [ 125470]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 09:21:55,083 [ 125473]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 09:21:55,085 [ 125475]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 09:21:55,089 [ 125479]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 09:21:55,106 [ 125496]   INFO - gement.rbenv.RbenvSdkRefresher - creating new sdk: file:///home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby 
+2014-10-12 09:21:55,125 [ 125515]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -v], working dir =[null] 
+2014-10-12 09:21:55,142 [ 125532]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2014-10-12 09:21:55,177 [ 125567]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e "print(defined?(RUBY_PATCHLEVEL) ? RUBY_PATCHLEVEL : 0)"], working dir =[null] 
+2014-10-12 09:21:55,256 [ 125646]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -v], working dir =[null] 
+2014-10-12 09:21:55,265 [ 125655]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e "print(defined?(RUBY_PATCHLEVEL) ? RUBY_PATCHLEVEL : 0)"], working dir =[null] 
+2014-10-12 09:21:55,290 [ 125680]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby --disable-gems -e "puts $:"], working dir =[null] 
+2014-10-12 09:21:55,337 [ 125727]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem environment gempath], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 09:21:55,337 [ 125727]   INFO - gement.rbenv.RbenvSdkRefresher - creating new sdk: file:///home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby 
+2014-10-12 09:21:55,338 [ 125728]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby -v], working dir =[null] 
+2014-10-12 09:21:55,435 [ 125825]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby -e "print(defined?(RUBY_PATCHLEVEL) ? RUBY_PATCHLEVEL : 0)"], working dir =[null] 
+2014-10-12 09:21:55,514 [ 125904]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby -v], working dir =[null] 
+2014-10-12 09:21:55,522 [ 125912]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby -e "print(defined?(RUBY_PATCHLEVEL) ? RUBY_PATCHLEVEL : 0)"], working dir =[null] 
+2014-10-12 09:21:55,546 [ 125936]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby --disable-gems -e "puts $:"], working dir =[null] 
+2014-10-12 09:21:55,902 [ 126292]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/applicationLibraries.xml file is null 
+2014-10-12 09:21:56,067 [ 126457]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-dev/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-dev/bin/gem environment gempath], working dir =[/home/yseto/.rbenv/versions/1.9.3-dev/bin] 
+2014-10-12 09:22:13,542 [ 143932]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 09:22:13,547 [ 143937]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/IntelliLang.xml file is null 
+2014-10-12 09:23:12,185 [ 202575]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-10-12 09:23:12,311 [ 202701]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 09:23:12,322 [ 202712]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 09:23:12,322 [ 202712]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 09:23:12,322 [ 202712]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 09:23:12,323 [ 202713]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 09:23:12,324 [ 202714]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 09:23:12,368 [ 202758]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 09:23:12,368 [ 202758]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 09:23:12,372 [ 202762]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 09:23:12,377 [ 202767]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-10-12 16:01:32,521 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 16:01:32,541 [     20]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 16:01:32,541 [     20]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-24-generic, amd64) 
+2014-10-12 16:01:32,541 [     20]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-10-12 16:01:32,542 [     21]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-10-12 16:01:32,543 [     22]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/local/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/usr/local/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 16:01:32,557 [     36]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 14 ms 
+2014-10-12 16:01:32,605 [     84]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 48 ms 
+2014-10-12 16:01:32,761 [    240]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 16:01:33,161 [    640]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 16:01:33,189 [    668]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 16:01:33,203 [    682]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 16:01:33,748 [   1227]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 861 ms 
+2014-10-12 16:01:33,749 [   1228]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 16:01:34,136 [   1615]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 16:01:34,193 [   1672]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/local/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 16:01:34,200 [   1679]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 16:01:34,251 [   1730]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 16:01:35,038 [   2517]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 16:01:35,210 [   2689]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-10-12 16:01:35,380 [   2859]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 16:01:35,420 [   2899]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 16:01:35,427 [   2906]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 16:01:35,887 [   3366]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 16:01:35,915 [   3394]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 16:01:35,919 [   3398]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 16:01:35,951 [   3430]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 16:01:35,953 [   3432]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 2143 ms 
+2014-10-12 16:01:35,955 [   3434]   INFO - .intellij.idea.IdeaApplication - App initialization took 3975 ms 
+2014-10-12 16:01:36,150 [   3629]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 16:01:36,150 [   3629]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 16:01:36,155 [   3634]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:01:36,171 [   3650]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:01:36,172 [   3651]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:01:41,618 [   9097]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 208 ms 
+2014-10-12 16:01:41,618 [   9097]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 16:01:43,196 [  10675]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 16:02:08,111 [  35590]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2014-10-12 16:02:09,700 [  37179]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 16:02:09,721 [  37200]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 16:02:09,721 [  37200]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 16:02:09,722 [  37201]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 16:02:09,722 [  37201]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 16:02:09,723 [  37202]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 16:02:09,843 [  37322]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 16:02:09,843 [  37322]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 16:02:09,846 [  37325]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 16:02:09,850 [  37329]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-10-12 16:02:11,033 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 16:02:11,043 [     10]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 16:02:11,043 [     10]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-24-generic, amd64) 
+2014-10-12 16:02:11,043 [     10]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-10-12 16:02:11,043 [     10]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-10-12 16:02:11,045 [     12]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/local/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/usr/local/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 16:02:11,065 [     32]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 20 ms 
+2014-10-12 16:02:11,101 [     68]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 35 ms 
+2014-10-12 16:02:11,248 [    215]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 16:02:11,657 [    624]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 16:02:11,686 [    653]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 16:02:11,701 [    668]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 16:02:12,250 [   1217]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 868 ms 
+2014-10-12 16:02:12,251 [   1218]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 16:02:12,630 [   1597]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 16:02:12,661 [   1628]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/local/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 16:02:12,667 [   1634]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 16:02:12,716 [   1683]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 16:02:13,546 [   2513]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 16:02:13,728 [   2695]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-10-12 16:02:13,890 [   2857]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 16:02:13,925 [   2892]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 16:02:13,931 [   2898]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 16:02:14,210 [   3177]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 16:02:14,234 [   3201]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 16:02:14,238 [   3205]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 16:02:14,271 [   3238]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 16:02:14,273 [   3240]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 1960 ms 
+2014-10-12 16:02:14,275 [   3242]   INFO - .intellij.idea.IdeaApplication - App initialization took 3723 ms 
+2014-10-12 16:02:14,490 [   3457]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 16:02:14,490 [   3457]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 16:02:14,495 [   3462]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:02:14,496 [   3463]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:02:14,496 [   3463]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:02:16,954 [   5921]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 204 ms 
+2014-10-12 16:02:16,955 [   5922]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 16:02:18,311 [   7278]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 16:02:53,980 [  42947]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 16:02:53,981 [  42948]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 16:02:53,981 [  42948]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:02:53,981 [  42948]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:02:53,981 [  42948]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:02:54,004 [  42971]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/rubysettings.xml file is null 
+2014-10-12 16:03:04,457 [  53424]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem --version], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 16:03:04,752 [  53719]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem query --remote --details --all --prerelease --name-matches ^rails$], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 16:03:27,743 [  76710]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem --version], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 16:03:27,789 [  76756]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem install rails --version "= 4.1.6" --no-rdoc --no-ri], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 16:04:40,990 [ 149957]   INFO - lugins.ruby.gem.GemInstallUtil - Installed gem: rails (4.1.6) 
+2014-10-12 16:04:41,004 [ 149971]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:04:41,004 [ 149971]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:04:41,005 [ 149972]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:04:41,304 [ 150271]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:04:41,304 [ 150271]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:04:41,304 [ 150271]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:04:41,306 [ 150273]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 16:04:41,306 [ 150273]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 16:04:41,306 [ 150273]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 16:38:28,414 [2177381]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 16:38:28,437 [2177404]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 16:38:28,437 [2177404]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 16:38:28,437 [2177404]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 16:38:28,437 [2177404]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 16:38:28,439 [2177406]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 16:38:28,552 [2177519]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 16:38:28,553 [2177520]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 16:38:28,557 [2177524]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 16:38:28,565 [2177532]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-10-12 19:06:26,001 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 19:06:26,011 [     10]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 19:06:26,011 [     10]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-24-generic, amd64) 
+2014-10-12 19:06:26,011 [     10]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-10-12 19:06:26,011 [     10]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-10-12 19:06:26,012 [     11]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/local/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/usr/local/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 19:06:26,027 [     26]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 14 ms 
+2014-10-12 19:06:26,062 [     61]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 35 ms 
+2014-10-12 19:06:26,160 [    159]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 19:06:26,565 [    564]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 19:06:26,590 [    589]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 19:06:26,606 [    605]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 19:06:27,157 [   1156]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 868 ms 
+2014-10-12 19:06:27,158 [   1157]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 19:06:27,549 [   1548]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 19:06:27,581 [   1580]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/local/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 19:06:27,587 [   1586]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 19:06:27,635 [   1634]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 19:06:28,476 [   2475]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 19:06:28,660 [   2659]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-10-12 19:06:28,820 [   2819]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 19:06:28,862 [   2861]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 19:06:28,868 [   2867]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 19:06:29,161 [   3160]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 19:06:29,191 [   3190]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 19:06:29,194 [   3193]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 19:06:29,227 [   3226]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 19:06:29,229 [   3228]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 2009 ms 
+2014-10-12 19:06:29,231 [   3230]   INFO - .intellij.idea.IdeaApplication - App initialization took 3814 ms 
+2014-10-12 19:06:29,443 [   3442]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:06:29,443 [   3442]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:06:29,449 [   3448]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:06:29,450 [   3449]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:06:29,450 [   3449]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:06:34,242 [   8241]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 213 ms 
+2014-10-12 19:06:34,243 [   8242]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 19:06:35,887 [   9886]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 19:07:00,628 [  34627]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at javax.help.plaf.basic.BasicTOCNavigatorUI.presentData(BasicTOCNavigatorUI.java:234)
+	at javax.help.plaf.basic.BasicTOCNavigatorUI.access$100(BasicTOCNavigatorUI.java:65)
+	at javax.help.plaf.basic.BasicTOCNavigatorUI$NavSwingWorker.finished(BasicTOCNavigatorUI.java:257)
+	at com.sun.java.help.impl.SwingWorker$1.run(SwingWorker.java:123)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:787)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:463)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1557)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1524)
+	at com.intellij.openapi.ui.Messages$MessageDialog.show(Messages.java:1419)
+	at com.intellij.openapi.ui.Messages.showDialog(Messages.java:273)
+	at com.intellij.openapi.ui.Messages.showDialog(Messages.java:285)
+	at com.intellij.openapi.ui.Messages.showOkCancelDialog(Messages.java:591)
+	at com.intellij.openapi.ui.Messages.showOkCancelDialog(Messages.java:569)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.b(DarculaInstaller.java:77)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.a(DarculaInstaller.java:73)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.uninstall(DarculaInstaller.java:50)
+	at com.intellij.ide.ui.AppearanceConfigurable$3.run(AppearanceConfigurable.java:194)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:787)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:463)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1557)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1524)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.a(ShowSettingsUtilImpl.java:72)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:54)
+	at com.intellij.ide.actions.ShowSettingsAction.actionPerformed(ShowSettingsAction.java:63)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:164)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.a(ActionButton.java:170)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.a(ActionButton.java:133)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:313)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:520)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - RubyMine 6.3.3  Build #RM-135.1104 
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.7.0_65 
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - Vendor: Oracle Corporation 
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2014-10-12 19:07:00,632 [  34631]  ERROR - llij.ide.plugins.PluginManager - Last Action: WelcomeScreen.Settings 
+2014-10-12 19:07:01,569 [  35568]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at javax.help.plaf.basic.BasicIndexNavigatorUI.presentData(BasicIndexNavigatorUI.java:256)
+	at javax.help.plaf.basic.BasicIndexNavigatorUI.access$100(BasicIndexNavigatorUI.java:74)
+	at javax.help.plaf.basic.BasicIndexNavigatorUI$NavSwingWorker.finished(BasicIndexNavigatorUI.java:279)
+	at com.sun.java.help.impl.SwingWorker$1.run(SwingWorker.java:123)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:787)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:463)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1557)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1524)
+	at com.intellij.openapi.ui.Messages$MessageDialog.show(Messages.java:1419)
+	at com.intellij.openapi.ui.Messages.showDialog(Messages.java:273)
+	at com.intellij.openapi.ui.Messages.showDialog(Messages.java:285)
+	at com.intellij.openapi.ui.Messages.showOkCancelDialog(Messages.java:591)
+	at com.intellij.openapi.ui.Messages.showOkCancelDialog(Messages.java:569)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.b(DarculaInstaller.java:77)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.a(DarculaInstaller.java:73)
+	at com.intellij.ide.ui.laf.darcula.DarculaInstaller.uninstall(DarculaInstaller.java:50)
+	at com.intellij.ide.ui.AppearanceConfigurable$3.run(AppearanceConfigurable.java:194)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:787)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:463)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1557)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1524)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.a(ShowSettingsUtilImpl.java:72)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:54)
+	at com.intellij.ide.actions.ShowSettingsAction.actionPerformed(ShowSettingsAction.java:63)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:164)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.a(ActionButton.java:170)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.a(ActionButton.java:133)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:313)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.e(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:520)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - RubyMine 6.3.3  Build #RM-135.1104 
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.7.0_65 
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - Vendor: Oracle Corporation 
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2014-10-12 19:07:01,571 [  35570]  ERROR - llij.ide.plugins.PluginManager - Last Action: WelcomeScreen.Settings 
+2014-10-12 19:07:06,751 [  40750]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 19:07:06,770 [  40769]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 19:07:06,770 [  40769]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 19:07:06,770 [  40769]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 19:07:06,771 [  40770]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 19:07:06,772 [  40771]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 19:07:06,787 [  40786]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 19:07:06,787 [  40786]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 19:07:06,789 [  40788]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 19:07:06,791 [  40790]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-10-12 19:07:08,035 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 19:07:08,045 [     10]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 19:07:08,046 [     11]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-24-generic, amd64) 
+2014-10-12 19:07:08,046 [     11]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-10-12 19:07:08,046 [     11]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-10-12 19:07:08,047 [     12]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/local/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/usr/local/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 19:07:08,066 [     31]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 19 ms 
+2014-10-12 19:07:08,101 [     66]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 35 ms 
+2014-10-12 19:07:08,199 [    164]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 19:07:08,608 [    573]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 19:07:08,639 [    604]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 19:07:08,654 [    619]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 19:07:09,220 [   1185]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 884 ms 
+2014-10-12 19:07:09,221 [   1186]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 19:07:09,578 [   1543]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 19:07:09,608 [   1573]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/local/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 19:07:09,615 [   1580]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 19:07:09,664 [   1629]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 19:07:10,452 [   2417]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 19:07:10,628 [   2593]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-10-12 19:07:10,800 [   2765]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 19:07:10,834 [   2799]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 19:07:10,839 [   2804]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 19:07:11,117 [   3082]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 19:07:11,139 [   3104]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 19:07:11,143 [   3108]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 19:07:11,175 [   3140]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 19:07:11,176 [   3141]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 1933 ms 
+2014-10-12 19:07:11,178 [   3143]   INFO - .intellij.idea.IdeaApplication - App initialization took 3683 ms 
+2014-10-12 19:07:11,413 [   3378]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:07:11,413 [   3378]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:07:11,418 [   3383]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:07:11,419 [   3384]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:07:11,419 [   3384]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:07:16,016 [   7981]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 201 ms 
+2014-10-12 19:07:16,017 [   7982]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 19:07:36,045 [  28010]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 19:08:01,349 [  53314]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/databaseSettings.xml file is null 
+2014-10-12 19:08:02,138 [  54103]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2014-10-12 19:10:35,362 [ 207327]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 19:10:35,376 [ 207341]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 19:10:35,377 [ 207342]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 19:10:35,377 [ 207342]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 19:10:35,377 [ 207342]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 19:10:35,379 [ 207344]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 19:10:35,395 [ 207360]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 19:10:35,396 [ 207361]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 19:10:35,399 [ 207364]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 19:10:35,403 [ 207368]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-10-12 19:10:39,297 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-10-12 19:10:39,307 [     10]   INFO -        #com.intellij.idea.Main - IDE: RubyMine (build #RM-135.1104, 18 Jun 2014 00:00) 
+2014-10-12 19:10:39,307 [     10]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-24-generic, amd64) 
+2014-10-12 19:10:39,307 [     10]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_65-b32 (Oracle Corporation) 
+2014-10-12 19:10:39,307 [     10]   INFO -        #com.intellij.idea.Main - JVM: 24.65-b04 (OpenJDK 64-Bit Server VM) 
+2014-10-12 19:10:39,309 [     12]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -Djb.vmOptionsFile=/usr/local/bin/RubyMine-6.3.3/bin/rubymine64.vmoptions -Xbootclasspath/a:/usr/local/bin/RubyMine-6.3.3/bin/../lib/boot.jar -Didea.paths.selector=RubyMine60 -Didea.platform.prefix=Ruby -Didea.no.jre.check=true -Djb.restart.code=88 
+2014-10-12 19:10:39,328 [     31]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 19 ms 
+2014-10-12 19:10:39,364 [     67]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 36 ms 
+2014-10-12 19:10:39,457 [    160]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter (Muffin) 
+2014-10-12 19:10:39,867 [    570]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-10-12 19:10:39,902 [    605]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2014-10-12 19:10:39,918 [    621]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2014-10-12 19:10:40,473 [   1176]   INFO - llij.ide.plugins.PluginManager - 40 plugins initialized in 882 ms 
+2014-10-12 19:10:40,474 [   1177]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support, CVS Integration (11), CoffeeScript (2.0), Database Support (1.0), Gherkin (999.999), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, IntelliLang (8.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, Perforce Integration (2.0), Puppet Support (VERSION), REST Client, Remote Hosts Access (0.1), Ruby CSS Support Integration, Ruby Code Coverage, Ruby Cucumber support, Ruby Database Support Integration, Ruby HAML Support Integration, Ruby JavaScript Debugger Integration, Ruby Remote SDK Support (0.1), Ruby Slim Support Integration, Ruby UML Support Integration, SASS support, SQL support (1.0), SSH Remote Run (0.1), Slim (VERSION), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (VERSION), UML Support (1.0), Vagrant (0.2), hg4idea (10.0) 
+2014-10-12 19:10:40,823 [   1526]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=498008064 
+2014-10-12 19:10:40,854 [   1557]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/local/bin/RubyMine-6.3.3/bin/fsnotifier64 
+2014-10-12 19:10:40,861 [   1564]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-10-12 19:10:40,910 [   1613]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2014-10-12 19:10:41,706 [   2409]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2014-10-12 19:10:41,883 [   2586]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-10-12 19:10:42,058 [   2761]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2014-10-12 19:10:42,096 [   2799]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-10-12 19:10:42,102 [   2805]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-10-12 19:10:42,389 [   3092]   INFO - gins.ruby.rvm.RVMPathsSettings - RVM installation wasn't detected. 
+2014-10-12 19:10:42,412 [   3115]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/AMDeviceDatabase.xml file is null 
+2014-10-12 19:10:42,416 [   3119]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-10-12 19:10:42,455 [   3158]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2014-10-12 19:10:42,458 [   3161]   INFO - pl.stores.ApplicationStoreImpl - 85 application components initialized in 1963 ms 
+2014-10-12 19:10:42,460 [   3163]   INFO - .intellij.idea.IdeaApplication - App initialization took 3715 ms 
+2014-10-12 19:10:42,723 [   3426]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:10:42,723 [   3426]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:10:42,730 [   3433]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:10:42,731 [   3434]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:10:42,732 [   3435]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:10:45,678 [   6381]   INFO - ellij.project.impl.ProjectImpl - 17 project components initialized in 213 ms 
+2014-10-12 19:10:45,678 [   6381]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 19:10:47,030 [   7733]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-10-12 19:12:35,873 [ 116576]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $WORKSPACE_FILE$ file is null 
+2014-10-12 19:12:35,880 [ 116583]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2014-10-12 19:12:35,886 [ 116589]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/modules.xml file is null 
+2014-10-12 19:12:35,889 [ 116592]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2014-10-12 19:12:35,978 [ 116681]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:12:35,978 [ 116681]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:12:35,978 [ 116681]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:12:35,978 [ 116681]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:12:35,978 [ 116681]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:12:35,996 [ 116699]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/webServers.xml file is null 
+2014-10-12 19:12:36,001 [ 116704]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/deployment.xml file is null 
+2014-10-12 19:12:36,006 [ 116709]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-10-12 19:12:36,046 [ 116749]   INFO - ellij.project.impl.ProjectImpl - 120 project components initialized in 255 ms 
+2014-10-12 19:12:36,046 [ 116749]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 19:12:36,056 [ 116759]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-10-12 19:12:36,142 [ 116845]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-10-12 19:12:36,157 [ 116860]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2014-10-12 19:12:36,385 [ 117088]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:12:36,385 [ 117088]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:12:36,414 [ 117117]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-10-12 19:12:36,426 [ 117129]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqldialects.xml file is null 
+2014-10-12 19:12:36,431 [ 117134]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 15 ms 
+2014-10-12 19:12:36,642 [ 117345]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2014-10-12 19:12:36,828 [ 117531]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 1045 ms 
+2014-10-12 19:12:36,952 [ 117655]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-10-12 19:12:37,225 [ 117928]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 775 ms 
+2014-10-12 19:12:37,225 [ 117928]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1041 files to update 
+2014-10-12 19:12:43,180 [ 123883]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/file.template.settings.xml file is null 
+2014-10-12 19:12:43,471 [ 124174]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/web-browsers.xml file is null 
+2014-10-12 19:12:47,970 [ 128673]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 10745 ms 
+2014-10-12 19:12:47,989 [ 128692]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem environment gempath], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 19:12:47,993 [ 128696]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/feature.usage.statistics.xml file is null 
+2014-10-12 19:12:48,067 [ 128770]   INFO - e.GemRequirementsChangeWatcher - Initial scan started 
+2014-10-12 19:12:48,068 [ 128771]   INFO - e.GemRequirementsChangeWatcher - Initial scan took: 1 ms 
+2014-10-12 19:12:49,984 [ 130687]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/dataSources.xml file is null 
+2014-10-12 19:12:49,989 [ 130692]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dataSources.xml file is null 
+2014-10-12 19:12:49,992 [ 130695]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqlDataSources.xml file is null 
+2014-10-12 19:12:49,996 [ 130699]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/jsLibraryMappings.xml file is null 
+2014-10-12 19:13:10,627 [ 151330]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:13:10,627 [ 151330]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:13:10,627 [ 151330]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:13:10,627 [ 151330]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:13:10,627 [ 151330]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:13:10,650 [ 151353]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/rubysettings.xml file is null 
+2014-10-12 19:13:13,973 [ 154676]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem --version], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 19:13:14,017 [ 154720]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem query --remote --details --all --prerelease --name-matches ^rails$], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 19:13:41,410 [ 182113]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem --version], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 19:13:41,460 [ 182163]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -x /home/yseto/.rbenv/versions/1.9.3-p448/bin/gem install rails --version "= 4.1.0" --no-rdoc --no-ri], working dir =[/home/yseto/.rbenv/versions/1.9.3-p448/bin] 
+2014-10-12 19:14:27,768 [ 228471]   INFO - lugins.ruby.gem.GemInstallUtil - Installed gem: rails (4.1.0) 
+2014-10-12 19:14:27,787 [ 228490]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,787 [ 228490]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,787 [ 228490]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,787 [ 228490]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,787 [ 228490]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,788 [ 228491]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,789 [ 228492]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,790 [ 228493]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,791 [ 228494]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,792 [ 228495]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,793 [ 228496]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,794 [ 228497]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,795 [ 228498]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,796 [ 228499]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,797 [ 228500]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,797 [ 228500]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:27,797 [ 228500]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:27,797 [ 228500]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:27,797 [ 228500]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,140 [ 228843]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,140 [ 228843]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,140 [ 228843]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,152 [ 228855]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,152 [ 228855]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,152 [ 228855]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,153 [ 228856]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,153 [ 228856]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,153 [ 228856]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,155 [ 228858]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,155 [ 228858]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,155 [ 228858]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,155 [ 228858]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,156 [ 228859]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,156 [ 228859]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,156 [ 228859]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,156 [ 228859]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,156 [ 228859]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,157 [ 228860]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,158 [ 228861]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,158 [ 228861]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,158 [ 228861]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,158 [ 228861]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,158 [ 228861]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,159 [ 228862]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,160 [ 228863]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,160 [ 228863]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,161 [ 228864]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,161 [ 228864]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,161 [ 228864]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,162 [ 228865]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,163 [ 228866]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,164 [ 228867]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,165 [ 228868]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,166 [ 228869]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,167 [ 228870]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,167 [ 228870]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,167 [ 228870]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,167 [ 228870]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,167 [ 228870]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,169 [ 228872]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,169 [ 228872]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,169 [ 228872]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:14:28,170 [ 228873]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:29,616 [ 350319]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $WORKSPACE_FILE$ file is null 
+2014-10-12 19:16:29,618 [ 350321]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2014-10-12 19:16:29,620 [ 350323]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/modules.xml file is null 
+2014-10-12 19:16:29,621 [ 350324]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2014-10-12 19:16:29,631 [ 350334]   INFO - management.pik.PikSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:29,631 [ 350334]   INFO - management.pik.PikSdkRefresher - pik isn't supported by OS 
+2014-10-12 19:16:29,631 [ 350334]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:29,631 [ 350334]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:29,631 [ 350334]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:29,635 [ 350338]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/deployment.xml file is null 
+2014-10-12 19:16:29,637 [ 350340]   INFO - ellij.project.impl.ProjectImpl - 120 project components initialized in 28 ms 
+2014-10-12 19:16:29,637 [ 350340]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2014-10-12 19:16:29,638 [ 350341]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2014-10-12 19:16:29,720 [ 350423]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:29,720 [ 350423]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:29,727 [ 350430]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting started 
+2014-10-12 19:16:29,772 [ 350475]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting finished 
+2014-10-12 19:16:29,774 [ 350477]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-10-12 19:16:29,776 [ 350479]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqldialects.xml file is null 
+2014-10-12 19:16:29,776 [ 350479]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 2 ms 
+2014-10-12 19:16:29,848 [ 350551]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 67 ms 
+2014-10-12 19:16:29,848 [ 350551]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-10-12 19:16:29,849 [ 350552]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2014-10-12 19:16:29,875 [ 350578]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 3 ms 
+2014-10-12 19:16:29,875 [ 350578]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-10-12 19:16:29,875 [ 350578]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-10-12 19:16:29,884 [ 350587]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 4 ms 
+2014-10-12 19:16:29,884 [ 350587]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-10-12 19:16:29,885 [ 350588]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2014-10-12 19:16:29,920 [ 350623]   INFO - e.GemRequirementsChangeWatcher - Initial scan started 
+2014-10-12 19:16:29,927 [ 350630]   INFO - e.GemRequirementsChangeWatcher - Initial scan took: 0 ms 
+2014-10-12 19:16:29,963 [ 350666]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) /home/yseto/.rbenv/versions/1.9.3-p448/bin/rails _4.1.0_ new /home/yseto/RubymineProjects/MyApp --template /home/yseto/dotfiles/rails_template.rb --skip-test-unit --javascript=jquery --skip], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:29,997 [ 350700]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/runner.layout.xml file is null 
+2014-10-12 19:16:30,052 [ 350755]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-10-12 19:16:30,053 [ 350756]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-10-12 19:16:30,107 [ 350810]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2014-10-12 19:16:30,354 [ 351057]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 749 ms 
+2014-10-12 19:16:30,381 [ 351084]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-10-12 19:16:51,763 [ 372466]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:51,763 [ 372466]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:51,764 [ 372467]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:51,764 [ 372467]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:51,764 [ 372467]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:51,764 [ 372467]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - Refreshing sdks 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-dev 
+2014-10-12 19:16:51,796 [ 372499]   INFO - gement.rbenv.RbenvSdkRefresher - possible ruby sdk in file:///home/yseto/.rbenv/versions/1.9.3-p448 
+2014-10-12 19:16:52,258 [ 372961]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby /home/yseto/RubymineProjects/MyApp/bin/rails generate], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:52,276 [ 372979]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby /home/yseto/RubymineProjects/MyApp/bin/rake --tasks --trace], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:52,299 [ 373002]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 8 ms 
+2014-10-12 19:16:52,300 [ 373003]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-10-12 19:16:52,300 [ 373003]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-10-12 19:16:52,345 [ 373048]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) /home/yseto/RubymineProjects/MyApp/bin/bundle check], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:52,412 [ 373115]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby /home/yseto/RubymineProjects/MyApp/bin/rake --prereqs --trace], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:52,452 [ 373155]   WARN - ions.generators.GeneratorsUtil - Get available generators script executes with errors:
+/home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:357:in `resolve': Could not find gem 'binding_of_caller (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:164:in `start'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:129:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:193:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:132:in `specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:177:in `specs_for'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:166:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/runtime.rb:13:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler.rb:121:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/yseto/RubymineProjects/MyApp/config/boot.rb:4:in `<top (required)>'
+	from /home/yseto/RubymineProjects/MyApp/bin/rails:3:in `require_relative'
+	from /home/yseto/RubymineProjects/MyApp/bin/rails:3:in `<main>'
+ 
+2014-10-12 19:16:52,575 [ 373278]   WARN - ugins.ruby.tasks.rake.RakeUtil - /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:357:in `resolve': Could not find gem 'binding_of_caller (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:164:in `start'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:129:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:193:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:132:in `specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:177:in `specs_for'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:166:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/runtime.rb:13:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler.rb:121:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/yseto/RubymineProjects/MyApp/config/boot.rb:4:in `<top (required)>'
+	from /home/yseto/RubymineProjects/MyApp/bin/rake:2:in `require_relative'
+	from /home/yseto/RubymineProjects/MyApp/bin/rake:2:in `<main>': Get available rake tasks 
+2014-10-12 19:16:52,575 [ 373278]   WARN - ugins.ruby.tasks.rake.RakeUtil - /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:357:in `resolve': Could not find gem 'binding_of_caller (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:164:in `start'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/resolver.rb:129:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:193:in `resolve'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:132:in `specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:177:in `specs_for'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/definition.rb:166:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/runtime.rb:13:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler.rb:121:in `setup'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/bundler-1.7.3/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/yseto/RubymineProjects/MyApp/config/boot.rb:4:in `<top (required)>'
+	from /home/yseto/RubymineProjects/MyApp/bin/rake:2:in `require_relative'
+	from /home/yseto/RubymineProjects/MyApp/bin/rake:2:in `<main>': Get available rake tasks 
+2014-10-12 19:16:53,026 [ 373729]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/IntelliLang.xml file is null 
+2014-10-12 19:16:53,345 [ 374048]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-10-12 19:16:56,843 [ 377546]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) /home/yseto/RubymineProjects/MyApp/bin/bundle check], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:56,990 [ 377693]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby -e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) /home/yseto/RubymineProjects/MyApp/bin/bundle check], working dir =[/home/yseto/RubymineProjects/MyApp] 
+2014-10-12 19:16:57,532 [ 378235]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 341 ms 
+2014-10-12 19:16:57,532 [ 378235]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2074 files to update 
+2014-10-12 19:17:04,740 [ 385443]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 7208 ms 
+2014-10-12 19:17:04,751 [ 385454]   INFO - s.ruby.ruby.run.AbstractRunner - Executing [/home/yseto/.rbenv/versions/1.9.3-p448/bin/ruby /usr/local/bin/RubyMine-6.3.3/rb/stubsgen/gen_stubs.rb -d /home/yseto/.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/json-1.8.1 -s "gem json, v. 1.8.1" -o /home/yseto/.RubyMine60/config/rubystubs/ruby19/json/1.8.1], working dir =[/usr/local/bin/RubyMine-6.3.3/rb/stubsgen] 
+2014-10-12 19:17:04,756 [ 385459]   INFO - ctView.v2.RailsProjectViewPane - module updated (Module: 'MyApp') 
+2014-10-12 19:17:05,266 [ 385969]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 30 ms 
+2014-10-12 19:17:05,266 [ 385969]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2014-10-12 19:17:05,279 [ 385982]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 13 ms 
+2014-10-12 19:17:10,247 [ 390950]   INFO - ctView.v2.RailsProjectViewPane - module updated (Module: 'MyApp') 
+2014-10-12 19:21:58,828 [ 679531]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-10-12 19:22:07,539 [ 688242]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dataSources.xml file is null 
+2014-10-12 19:22:07,540 [ 688243]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/sqlDataSources.xml file is null 
+2014-10-12 19:23:41,357 [ 782060]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/jsLibraryMappings.xml file is null 
+2014-10-12 19:26:55,811 [ 976514]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/databaseColors.xml file is null 
+2014-10-12 19:26:55,871 [ 976574]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2014-10-12 19:26:55,879 [ 976582]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-10-12 19:26:55,890 [ 976593]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-10-12 19:26:55,890 [ 976593]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-10-12 19:26:55,890 [ 976593]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-10-12 19:26:55,890 [ 976593]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-10-12 19:26:55,892 [ 976595]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-10-12 19:26:56,044 [ 976747]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-10-12 19:26:56,045 [ 976748]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-10-12 19:26:56,047 [ 976750]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-10-12 19:26:56,056 [ 976759]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
