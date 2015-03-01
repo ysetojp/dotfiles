@@ -1,3 +1,6 @@
+" CUI colorscheme
+colorscheme desert
+" default encoding
 scriptencoding utf-8
 set encoding=utf-8
 set nocompatible
@@ -89,6 +92,7 @@ NeoBundleLazy 'basyura/unite-rails', {
   \ ]
   \ }}
 
+NeoBundle 'Lokaltog/powerline-fontpatcher'
 NeoBundle 'skwp/vim-rspec'
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'AndrewRadev/switch.vim'
@@ -96,13 +100,17 @@ NeoBundle 'h1mesuke/vim-alignta'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'itchyny/lightline.vim'
 
+let g:Powerline_symbols = 'fancy'
+
+"let g:Powerline_symbols = 'compatible'
+
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'component': {
-      \   'readonly': '%{&readonly?"x":""}',
+      \   'readonly': '%{&readonly?"":""}',
       \ },
-      \ 'separator': { 'left': "\u2b80", 'right': "\u2b82" },
-      \ 'subseparator': { 'left': "\u2b81", 'right': "\u2b83" }
+      \ 'separator': { 'left': "", 'right': "" },
+      \ 'subseparator': { 'left': "", 'right': "" }
       \ }
 
 filetype plugin on
