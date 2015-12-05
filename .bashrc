@@ -113,7 +113,6 @@ if ! shopt -oq posix; then
   fi
 fi
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 export PATH="$HOME/bin:$PATH"
 
 ### Added by the Heroku Toolbelt

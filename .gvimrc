@@ -1,4 +1,4 @@
-set guifont=Ricty\ 13
+set guifont=Ricty\ Regular\ for\ Powerline:h18
 colorscheme wombat
 " save window position "
 let g:save_window_file = expand('~/.vimwinpos')

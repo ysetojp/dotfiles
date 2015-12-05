@@ -1,22 +1,36 @@
+"basic setting
 scriptencoding utf-8
 set encoding=utf-8
-set nocompatible
-set showcmd
-set hidden
+
+"display settings
 set number
 set ruler
 set cmdheight=2
 set laststatus=2
-filetype on
-filetype indent on
-filetype plugin on
+set showcmd
+set showmatch
+set background=dark
+set timeoutlen=2000
+set virtualedit=all
+
+"tab/indent settings
 set autoindent
+set smartindent
 set cindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set background=dark
-set timeoutlen=2000
+
+"file settings
+set hidden
+set autoread
+
+"beep setting
+set visualbell t_vb=
+
+"filetype on
+"filetype indent on
+"filetype plugin on
 
 set backupdir=$HOME/.vim/backup
 set directory=$HOME/.vim/swap
@@ -36,65 +50,64 @@ filetype off
 filetype plugin indent off
 
 if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
   call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundleFetch 'Shougo/neobundle.vim'
+  NeoBundle 'Shougo/neobundle.vim'
+  NeoBundle 'Shougo/neocomplete'
+  NeoBundle 'Shougo/neosnippet'
+  NeoBundle 'Shougo/neosnippet-snippets'
+  "NeoBundle 'honza/snipmate-snippets'
+  "NeoBundle 'honza/vim-snippets'
+  NeoBundle 'Shougo/unite.vim'
+  NeoBundle 'Shougo/vimfiler'
+  NeoBundle 'Shougo/vimshell'
+  NeoBundle 'Shougo/vimproc', {
+    \ 'build': {
+    \ 'windows': 'make -f make_mingw32.mak',
+    \ 'cygwin': 'make -f make_cygwin.mak',
+    \ 'mac': 'make -f make_mac.mak',
+    \ 'unix': 'make -f make_unix.mak',
+    \ }
+    \}
+  
+  NeoBundle 'scrooloose/syntastic'
+  NeoBundle 'thinca/vim-quickrun'
+  NeoBundle 'thinca/vim-ref'
+  NeoBundle 'The-NERD-tree'
+  NeoBundle 'Gist.vim'
+  NeoBundle 'slim-template/vim-slim'
+  
+  NeoBundleLazy 'alpaca-tc/vim-endwise.git', {
+    \ 'autoload' : {
+    \ 'insert' : 1,
+    \ }}
+  
+  NeoBundle 'tpope/vim-surround'
+  NeoBundle 'tpope/vim-rails', { 'autoload' : {
+    \ 'filetypes' : ['slim', 'haml', 'ruby', 'eruby'] }}
+  
+  NeoBundleLazy 'basyura/unite-rails', {
+    \ 'depends' : 'Shougo/unite.vim',
+    \ 'autoload' : {
+    \ 'unite_sources' : [
+    \ 'rails/bundle', 'rails/bundled_gem', 'rails/config',
+    \ 'rails/controller', 'rails/db', 'rails/destroy', 'rails/features',
+    \ 'rails/gem', 'rails/gemfile', 'rails/generate', 'rails/git', 'rails/helper',
+    \ 'rails/heroku', 'rails/initializer', 'rails/javascript', 'rails/lib', 'rails/log',
+    \ 'rails/mailer', 'rails/model', 'rails/rake', 'rails/route', 'rails/schema', 'rails/spec',
+    \ 'rails/stylesheet', 'rails/view'
+    \ ]
+    \ }}
+  
+  NeoBundle 'skwp/vim-rspec'
+  NeoBundle 'tpope/vim-dispatch'
+  NeoBundle 'AndrewRadev/switch.vim'
+  NeoBundle 'h1mesuke/vim-alignta'
+  NeoBundle 'tyru/open-browser.vim'
+  NeoBundle 'itchyny/lightline.vim'
   call neobundle#end()
 endif
-
-NeoBundle 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/neocomplete'
-NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/neosnippet-snippets'
-"NeoBundle 'honza/snipmate-snippets'
-"NeoBundle 'honza/vim-snippets'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler'
-NeoBundle 'Shougo/vimshell'
-NeoBundle 'Shougo/vimproc', {
-  \ 'build': {
-  \ 'windows': 'make -f make_mingw32.mak',
-  \ 'cygwin': 'make -f make_cygwin.mak',
-  \ 'mac': 'make -f make_mac.mak',
-  \ 'unix': 'make -f make_unix.mak',
-  \ }
-  \}
-
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'thinca/vim-quickrun'
-NeoBundle 'thinca/vim-ref'
-NeoBundle 'The-NERD-tree'
-NeoBundle 'Gist.vim'
-NeoBundle 'slim-template/vim-slim'
-
-NeoBundleLazy 'alpaca-tc/vim-endwise.git', {
-  \ 'autoload' : {
-  \ 'insert' : 1,
-  \ }}
-
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-rails', { 'autoload' : {
-  \ 'filetypes' : ['slim', 'haml', 'ruby', 'eruby'] }}
-
-NeoBundleLazy 'basyura/unite-rails', {
-  \ 'depends' : 'Shougo/unite.vim',
-  \ 'autoload' : {
-  \ 'unite_sources' : [
-  \ 'rails/bundle', 'rails/bundled_gem', 'rails/config',
-  \ 'rails/controller', 'rails/db', 'rails/destroy', 'rails/features',
-  \ 'rails/gem', 'rails/gemfile', 'rails/generate', 'rails/git', 'rails/helper',
-  \ 'rails/heroku', 'rails/initializer', 'rails/javascript', 'rails/lib', 'rails/log',
-  \ 'rails/mailer', 'rails/model', 'rails/rake', 'rails/route', 'rails/schema', 'rails/spec',
-  \ 'rails/stylesheet', 'rails/view'
-  \ ]
-  \ }}
-
-NeoBundle 'skwp/vim-rspec'
-NeoBundle 'tpope/vim-dispatch'
-NeoBundle 'AndrewRadev/switch.vim'
-NeoBundle 'h1mesuke/vim-alignta'
-NeoBundle 'tyru/open-browser.vim'
-NeoBundle 'itchyny/lightline.vim'
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',

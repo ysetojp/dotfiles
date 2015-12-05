@@ -1,4 +1,8 @@
 #!/bin/bash
+
+mkdir -p ~/.vim/backup 2>/dev/null
+mkdir -p ~/.vim/swap   2>/dev/null
+
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/dotfiles/.vim ~/.vim
@@ -10,4 +14,4 @@ ln -s ~/dotfiles/.emacs.d ~/.emacs.d
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 #ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/dotfiles/.railsrc ~/.railsrc
-ln -s ~/dotfiles/.RubyMine60 ~/.RubyMine60
+
