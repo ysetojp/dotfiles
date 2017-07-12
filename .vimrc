@@ -1,3 +1,5 @@
+" vim: set filetype=vim:
+
 "basic setting
 scriptencoding utf-8
 set encoding=utf-8
