@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir -p ~/workspace    2>/dev/null
 mkdir -p ~/.config/nvim 2>/dev/null
 mkdir -p ~/.vim/backup  2>/dev/null
 mkdir -p ~/.vim/swap    2>/dev/null
@@ -18,3 +19,7 @@ ln -s ~/dotfiles/.railsrc ~/.railsrc
 ln -s ~/dotfiles/bin ~/bin
 ln -s ~/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
 ln -s ~/dotfiles/.config/nvim/colors ~/.config/nvim/colors
+
+# use 'vi' command as nvim
+sudo mv /usr/bin/vi /usr/bin/vim
+sudo ln -s /usr/bin/nvim /usr/bin/vi

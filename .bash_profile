@@ -1,5 +1,4 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/bin:$PATH"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 
