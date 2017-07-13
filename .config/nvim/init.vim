@@ -35,6 +35,7 @@ if dein#load_state('/home/yseto/.config/nvim/dein')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('Shougo/deoplete.nvim')
+  call dein#add('kovisoft/slimv')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
