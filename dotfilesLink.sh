@@ -22,7 +22,9 @@ ln -s ~/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
 ln -s ~/dotfiles/.config/nvim/colors ~/.config/nvim/colors
 ln -s ~/dotfiles/.config/nvim/dein/plugins.toml ~/.config/nvim/dein/plugins.toml
 
-ln -s ~/dotfiles/Fonts/Ricty-Regular-Powerline.ttf ~/.fonts/Ricty-Regular-Powerline.ttf
+# for a lightline.vim, an awesome vim plugin
+ln -s ~/dotfiles/fonts/Ricty-Regular-Powerline.ttf ~/.fonts/Ricty-Regular-Powerline.ttf
+ln -s ~/dotfiles/fonts/Ricty-Regular.ttf ~/.fonts/Ricty-Regular.ttf
 
 # use 'vi' command as nvim
 sudo mv /usr/bin/vi /usr/bin/vim
