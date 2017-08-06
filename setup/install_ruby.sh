@@ -1,2 +1,2 @@
-sudo apt-get install rbenv
-sudo apt-get install ruby-build
+sudo apt-get -y install rbenv
+sudo apt-get -y install ruby-build

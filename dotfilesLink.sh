@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir -p ~/workspace         2>/dev/null
+mkdir -p ~/app               2>/dev/null
 mkdir -p ~/.fonts            2>/dev/null
 mkdir -p ~/.config/nvim/dein 2>/dev/null
 mkdir -p ~/.vim/backup       2>/dev/null
