@@ -1,15 +1,13 @@
 [user]
-	name = yseto
+	name = Yoshitsugi Seto
 	email = ysscmer@gmail.com
 [alias]
 	co = checkout
+  st = status
+  cm = commit
+  br = branch
+  df = diff
 [push]
 	default = current
 [core]
-	excludesfile = /Users/yseto/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	editor = vi

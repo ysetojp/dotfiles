@@ -25,6 +25,12 @@ sudo apt-get -y install npm
 sudo npm install -g gulp
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
+
+sudo apt-get -y install postgresql postgresql-contrib
+
 # git
 sudo apt-get -y install tig
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
