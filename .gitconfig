@@ -11,3 +11,7 @@
 	default = current
 [core]
 	editor = vi
+[merge]
+	ff = false
+[pull]
+	ff = only
