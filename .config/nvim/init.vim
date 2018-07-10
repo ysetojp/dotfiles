@@ -62,6 +62,8 @@ endif
 
 "End dein Scripts-------------------------
 
+let g:python3_host_prog = expand('~/.pyenv/versions/3.7.0/bin/python')
+
 autocmd BufRead,BufNewFile *.slim setfiletype slim
 autocmd VimEnter * execute 'NERDTree'
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
@@ -78,3 +80,14 @@ nnoremap <Space>l <C-w>l
 
 "Save file
 nnoremap <Space>w :w<CR>
+
+"Git commands
+nnoremap [fugitive]  <Nop>
+nmap <Space>g [fugitive]
+nnoremap <silent> [fugitive]s :Gstatus<CR><C-w>T
+nnoremap <silent> [fugitive]a :Gwrite<CR>
+nnoremap <silent> [fugitive]c :Gcommit-v<CR>
+nnoremap <silent> [fugitive]b :Gblame<CR>
+nnoremap <silent> [fugitive]d :Gdiff<CR>
+nnoremap <silent> [fugitive]m :Gmerge<CR>
+
