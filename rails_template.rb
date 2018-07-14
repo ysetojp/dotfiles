@@ -10,7 +10,6 @@ gem_group :development, :test do
   gem 'pry-byebug'
 
   gem 'rspec-rails'
-  gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'guard-bundler'
   gem 'guard-rails'
@@ -27,7 +26,6 @@ application <<-GENERATORS
 config.generators do |g|
   g.template_engine :slim
   g.test_framework :rspec
-  g.fixture_replacement :factory_girl
   g.assets false
   g.view_specs false
 end

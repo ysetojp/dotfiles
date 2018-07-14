@@ -21,21 +21,23 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/yseto/.config/nvim/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/$HOME/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/yseto/.config/nvim/dein')
-  call dein#begin('/home/yseto/.config/nvim/dein')
+if dein#load_state('$HOME/.config/nvim/dein')
+  call dein#begin('$HOME/.config/nvim/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/yseto/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('$HOME/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('Shougo/deoplete.nvim')
   call dein#add('kovisoft/slimv')
+  call dein#add('scrooloose/nerdtree')
+  call dein#add('slim-template/vim-slim')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -59,4 +61,33 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
+
+let g:python3_host_prog = expand('~/.pyenv/versions/3.7.0/bin/python')
+
+autocmd BufRead,BufNewFile *.slim setfiletype slim
+autocmd VimEnter * execute 'NERDTree'
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
+nnoremap <Space> <Nop>
+
+"Move tab left and right
+nnoremap <C-S-l> gt
+nnoremap <C-S-h> gT
+
+"Move window left and right
+nnoremap <Space>h <C-w>h
+nnoremap <Space>l <C-w>l
+
+"Save file
+nnoremap <Space>w :w<CR>
+
+"Git commands
+nnoremap [fugitive]  <Nop>
+nmap <Space>g [fugitive]
+nnoremap <silent> [fugitive]s :Gstatus<CR><C-w>T
+nnoremap <silent> [fugitive]a :Gwrite<CR>
+nnoremap <silent> [fugitive]c :Gcommit-v<CR>
+nnoremap <silent> [fugitive]b :Gblame<CR>
+nnoremap <silent> [fugitive]d :Gdiff<CR>
+nnoremap <silent> [fugitive]m :Gmerge<CR>
 

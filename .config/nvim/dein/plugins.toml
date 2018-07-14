@@ -17,3 +17,9 @@ hook_add = '''
 [[plugins]] #TomL
 repo = 'cespare/vim-toml'
 on_ft = 'toml'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'mhinz/neovim-remote'
