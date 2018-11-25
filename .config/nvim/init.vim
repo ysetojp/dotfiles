@@ -8,7 +8,7 @@ set autoindent
 set cindent
 set expandtab
 set showmatch
-colorscheme molokai
+colorscheme wombat
 
 "dein Scripts-----------------------------
 let g:cache_home  = empty($XDG_CACHE_HOME)  ? expand('$HOME/.cache')  : $XDG_CACHE_HOME
@@ -65,7 +65,7 @@ endif
 let g:python3_host_prog = expand('~/.pyenv/versions/3.7.0/bin/python')
 
 autocmd BufRead,BufNewFile *.slim setfiletype slim
-autocmd VimEnter * execute 'NERDTree'
+"autocmd VimEnter * execute 'NERDTree'
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 nnoremap <Space> <Nop>
